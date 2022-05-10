@@ -1,0 +1,32 @@
+<form method="post" action="?class=Form&method=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <div>
+    <label for="modelo">Modelo:</label>
+    <input
+      type="text"
+      name="modelo"
+      id="modelo"
+      required
+      maxlength="50"
+      value="{modelo}"
+    />
+  </div>
+  <div>
+    <label for="processador">Processador:</label>
+    <textarea name="processador" id="processador" required>{processador}</textarea>
+  </div>
+  <div>
+    <label for="sistemaoperacional">Sistemaoperacional:</label>
+    <input
+      type="text"
+      name="sistemaoperacional"
+      id="sistemaoperacional"
+      required
+      maxlength="50"
+      value="{sistemaoperacional}"
+    />
+  </div>
+  <div>
+    <button type="submit">Salvar</button>
+  </div>
+</form>
